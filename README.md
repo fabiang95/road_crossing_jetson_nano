@@ -7,6 +7,10 @@ sudo apt-get install python3-numpy
 sudo apt-get install python3-scipy
 sudo apt-get install python3-matplotlib
 
+## Install Scipy
+python3 -m pip install --upgrade pip
+pip install scipy
+
 ## Install Detectron2 
 https://forums.developer.nvidia.com/t/pytorch-for-jetson-version-1-10-now-available/72048
 ### Install Packages
