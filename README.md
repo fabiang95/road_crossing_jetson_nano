@@ -1,11 +1,11 @@
 # road_crossing_jetson_nano
 
 ## Install General Packages
-sudo apt-get install python3-opencv
-sudo apt-get install python3-pandas
-sudo apt-get install python3-numpy
-sudo apt-get install python3-scipy
-sudo apt-get install python3-matplotlib
+  sudo apt-get install python3-opencv
+  sudo apt-get install python3-pandas
+  sudo apt-get install python3-numpy
+  sudo apt-get install python3-scipy
+  sudo apt-get install python3-matplotlib
 
 ## Install Scipy
 python3 -m pip install --upgrade pip
@@ -32,3 +32,6 @@ cd ../
 pip3 install cython 
 pip3 install -U 'git+https://github.com/cocodataset/cocoapi.git#subdirectory=PythonAPI'
 pip3 install pyyaml --upgrade
+
+## For Opencv imshow
+sudo apt-get install libcanberra-gtk-module
